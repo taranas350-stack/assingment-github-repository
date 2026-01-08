@@ -140,12 +140,13 @@ nav{
 
 main{
     width: 100%;
-    border: 2px solid gold;
+    border: 0;
+    padding-bottom: 30px;
 }
             
 .note-sec{
       border:0;
-      padding:50px 120px 0 ;
+      padding:50px 120px ;
 }
 .note1{
     border: 0;
@@ -180,7 +181,7 @@ main{
     background: #FFFFFF;
     text-align: center;
     padding-top: 50px;
-    box-shadow:2px 0 0 #dcdddf  ;
+    box-shadow:1px 0 0 #ececec  ;
     border-radius: 8px;
     
 }
@@ -207,4 +208,61 @@ main{
     line-height: 20px;
     color:#627382 ;
     font-weight: 400;
+}
+/* brain */
+article{
+    width: 100%;
+    border: 0;
+    padding: 120px;
+    margin-top: 30px;
+}
+.brain-sec{
+    border: 0;
+    padding: 10px;
+    display: flex;
+   gap: 60px;
+}
+.brain-img{
+    border: 0;
+    padding: 10px;
+    width: 50%;
+   
+}
+ .image{
+    width: 500px;
+    height: 500px;
+    border-radius:12px ;
+    border: 0;
+   
+}
+.brain-content{
+    border: 0;
+    width: 50%;
+}
+.brain-content h4{
+    font-size: 16px;
+    font-weight: 500;
+    color:#30B868 ;
+    line-height: 20px;
+}
+.brain-content h3{
+    padding-top: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    color:#001931 ;
+}
+.brain-content p{
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382 ;
+}
+.brain-content .ol{
+    margin-top: 40px;
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    list-style-image: url(./image/CheckCircle.png);
+    padding-left: 25px;
 }
