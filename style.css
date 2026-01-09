@@ -212,26 +212,26 @@ main{
 /* brain */
 article{
     width: 100%;
-    border: 0;
+    border:0;
     padding: 120px;
     margin-top: 30px;
 }
 .brain-sec{
-    border: 0;
+    border:0;
     padding: 10px;
     display: flex;
-   gap: 60px;
+    gap: 60px;
 }
 .brain-img{
     border: 0;
-    padding: 20px 0;
-    width: 50%;
+    padding-top:90px ; 
+    /* width: 40%; */
     background-color: #FFFFFF;
    
 }
  .image{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius:12px ;
     border: 0;
     text-align: center;
@@ -239,20 +239,21 @@ article{
 }
 .brain-content{
     border: 0;
-    width: 50%;
-    padding-top: 102px;
-    border: 1px solid;
+    /* width: 60%; */
+    padding-top: 180px;
+    border: 0;
+    padding-bottom: 80px;
 }
 .brain-content h4{
     font-size: 16px;
     font-weight: 500;
     color:#30B868 ;
     line-height: 20px;
-     border: 1px solid;
+    
 }
 .brain-content h3{
     padding-top: 16px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 100%;
     color:#001931 ;
@@ -260,7 +261,7 @@ article{
 .brain-content p{
     padding-top: 16px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     color:#627382 ;
 }
 .brain-content .ol{
@@ -274,16 +275,16 @@ article{
 /* early section */
 
 .sect{
-    width: 100;
-     border: 2px solid rgb(81, 255, 0);
-     margin-top: 20px;
+    width: 100%;
+    border:0;
+    margin-top: 20px;
 
 }
 
 .early-sec{
 
     max-width: 1100px; 
-    border: 2px solid red;
+    border: 0;
     margin-top: 30px;
     padding: 10px;
     margin: 0 auto;
@@ -309,4 +310,65 @@ article{
 .early-btn{
     text-align: center;
     margin-top: 24px;
+}
+footer{
+    width: 100%;
+    border: 0;
+    background-color:#001931 ;
+    padding: 120px;
+   
+}
+.foot1{
+   max-width: 1140px;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+    margin: 0 auto;
+}
+ .foot2{
+    max-width: 1140px;
+    border: 0;
+    margin-top: 80px;
+}  
+.logo-imgd{
+    width: 139px;
+    height: 60px;
+}
+.footer-media p{
+    font-size:20px ;
+    line-height: 28px;
+    font-weight: 500;
+    color:#FFFFFF ;
+
+}
+.icon-menu{
+    margin-top: 21px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+   
+}
+.icond{
+    width: 40px;
+    height:26px;
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 100%;
+    background: #FFFFFF;
+    color:#000000 ;
+
+    
+}
+.foot2 p{
+    font-size: 16px;
+    line-height: 24px;
+    color:#FAFAFA ;
+    text-align: center;
+    padding-top: 30px;
 }
