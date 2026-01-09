@@ -367,25 +367,26 @@ footer{
 
 }
 .icon-menu{
-    margin-top: 21px;
-    padding: 8px;
+    margin-top: 21p
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     gap: 20px;
    
    
 }
 .icond{
     width: 40px;
-    height:26px;
+    height:40px;
     border: 0;
     font-size: 20px;
-    text-align: center;
+   
     border-radius: 100%;
     background: #FFFFFF;
     color:#000000 ;
-    padding-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
 }
