@@ -5,18 +5,18 @@
     font-family:"Inter", sans-serif; 
 }
 body{
-    width: 1240px;
+    
     color: rgb(172, 166, 166);
 }
 /* navber */
 header{
     width: 100%;
-    border: 2px solid purple;
+    border: 0;
     
 }
 nav{
     width: 100%;
-    border: 1px solid black;
+    border: 0;
     padding: 10px;
     color:#FFFFFF ;
    
@@ -72,7 +72,7 @@ nav{
 
 .section{
     width: 100%;
-    border: 2px solid blue;
+    border: 0;
 }
 .banner{
     background-image: url(./image/hero-bg.png);
@@ -85,6 +85,29 @@ nav{
     align-items: center;
     text-align: center;
 }
+
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-top: 16px;
+    line-height: 84px;
+    color:#FFFFFF ;
+}
+
+.text-green{
+    color:#30B868 ;
+}
+
+.banner-content p{
+    font-size:18px ;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 16px;
+    color: #FFFFFF;
+
+}
+
 .btnm{
     padding: 4px 12px;
     font-size: 16px;
@@ -181,7 +204,7 @@ main{
     background: #FFFFFF;
     text-align: center;
     padding-top: 50px;
-    box-shadow:1px 0 0 #ececec  ;
+   
     border-radius: 8px;
     
 }
